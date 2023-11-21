@@ -15,6 +15,13 @@
 		446B90122B0BCB170081AC78 /* SwiftShapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B90112B0BCB170081AC78 /* SwiftShapeTests.swift */; };
 		446B901C2B0BCB170081AC78 /* SwiftShapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B901B2B0BCB170081AC78 /* SwiftShapeUITests.swift */; };
 		446B901E2B0BCB170081AC78 /* SwiftShapeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B901D2B0BCB170081AC78 /* SwiftShapeUITestsLaunchTests.swift */; };
+		44BE05B62B0CE6A8001F945A /* Extension + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE05B52B0CE6A8001F945A /* Extension + UIColor.swift */; };
+		44BE05B82B0CE6BF001F945A /* Extension + UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE05B72B0CE6BF001F945A /* Extension + UIFont.swift */; };
+		44BE05BB2B0CE6D5001F945A /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE05BA2B0CE6D5001F945A /* Extension + UIView.swift */; };
+		44BE05BD2B0CE703001F945A /* Extension + UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE05BC2B0CE703001F945A /* Extension + UIImage.swift */; };
+		44BE05BF2B0CE720001F945A /* Extensions + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE05BE2B0CE720001F945A /* Extensions + UIButton.swift */; };
+		44BE05C12B0CE75C001F945A /* Extensions + UIStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE05C02B0CE75C001F945A /* Extensions + UIStack.swift */; };
+		44BE05C32B0CE7D4001F945A /* Extensions + UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE05C22B0CE7D4001F945A /* Extensions + UITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		446B90172B0BCB170081AC78 /* SwiftShapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftShapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		446B901B2B0BCB170081AC78 /* SwiftShapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftShapeUITests.swift; sourceTree = "<group>"; };
 		446B901D2B0BCB170081AC78 /* SwiftShapeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftShapeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44BE05B52B0CE6A8001F945A /* Extension + UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIColor.swift"; sourceTree = "<group>"; };
+		44BE05B72B0CE6BF001F945A /* Extension + UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIFont.swift"; sourceTree = "<group>"; };
+		44BE05BA2B0CE6D5001F945A /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		44BE05BC2B0CE703001F945A /* Extension + UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIImage.swift"; sourceTree = "<group>"; };
+		44BE05BE2B0CE720001F945A /* Extensions + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UIButton.swift"; sourceTree = "<group>"; };
+		44BE05C02B0CE75C001F945A /* Extensions + UIStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UIStack.swift"; sourceTree = "<group>"; };
+		44BE05C22B0CE7D4001F945A /* Extensions + UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UITextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,12 @@
 		446B8FF92B0BCB140081AC78 /* SwiftShape */ = {
 			isa = PBXGroup;
 			children = (
-				446B8FFA2B0BCB140081AC78 /* AppDelegate.swift */,
-				446B8FFC2B0BCB140081AC78 /* SceneDelegate.swift */,
-				446B8FFE2B0BCB140081AC78 /* ViewController.swift */,
-				446B90032B0BCB170081AC78 /* Assets.xcassets */,
-				446B90052B0BCB170081AC78 /* LaunchScreen.storyboard */,
-				446B90082B0BCB170081AC78 /* Info.plist */,
+				44BE05A62B0CE162001F945A /* App */,
+				44BE05A82B0CE261001F945A /* Scenes */,
+				44BE05B32B0CE565001F945A /* Extensions */,
+				44BE05B42B0CE582001F945A /* Components */,
+				44BE05A72B0CE176001F945A /* Resources */,
+				44BE05B12B0CE2EF001F945A /* Info */,
 			);
 			path = SwiftShape;
 			sourceTree = "<group>";
@@ -122,6 +136,125 @@
 				446B901D2B0BCB170081AC78 /* SwiftShapeUITestsLaunchTests.swift */,
 			);
 			path = SwiftShapeUITests;
+			sourceTree = "<group>";
+		};
+		44BE05A62B0CE162001F945A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				446B8FFA2B0BCB140081AC78 /* AppDelegate.swift */,
+				446B8FFC2B0BCB140081AC78 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		44BE05A72B0CE176001F945A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				446B90032B0BCB170081AC78 /* Assets.xcassets */,
+				446B90052B0BCB170081AC78 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44BE05A82B0CE261001F945A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				44BE05A92B0CE26A001F945A /* OnboardingFirst */,
+				44BE05AA2B0CE26E001F945A /* OnboardingSecond */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		44BE05A92B0CE26A001F945A /* OnboardingFirst */ = {
+			isa = PBXGroup;
+			children = (
+				44BE05AD2B0CE2B1001F945A /* Model */,
+				44BE05AC2B0CE2AF001F945A /* View */,
+				44BE05AB2B0CE2AB001F945A /* Presenter */,
+			);
+			path = OnboardingFirst;
+			sourceTree = "<group>";
+		};
+		44BE05AA2B0CE26E001F945A /* OnboardingSecond */ = {
+			isa = PBXGroup;
+			children = (
+				44BE05B02B0CE2C7001F945A /* Model */,
+				44BE05AF2B0CE2C5001F945A /* View */,
+				44BE05AE2B0CE2C1001F945A /* Presenter */,
+			);
+			path = OnboardingSecond;
+			sourceTree = "<group>";
+		};
+		44BE05AB2B0CE2AB001F945A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		44BE05AC2B0CE2AF001F945A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				446B8FFE2B0BCB140081AC78 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44BE05AD2B0CE2B1001F945A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44BE05AE2B0CE2C1001F945A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		44BE05AF2B0CE2C5001F945A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44BE05B02B0CE2C7001F945A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44BE05B12B0CE2EF001F945A /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				446B90082B0BCB170081AC78 /* Info.plist */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		44BE05B32B0CE565001F945A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				44BE05B52B0CE6A8001F945A /* Extension + UIColor.swift */,
+				44BE05B72B0CE6BF001F945A /* Extension + UIFont.swift */,
+				44BE05BA2B0CE6D5001F945A /* Extension + UIView.swift */,
+				44BE05BC2B0CE703001F945A /* Extension + UIImage.swift */,
+				44BE05BE2B0CE720001F945A /* Extensions + UIButton.swift */,
+				44BE05C02B0CE75C001F945A /* Extensions + UIStack.swift */,
+				44BE05C22B0CE7D4001F945A /* Extensions + UITextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		44BE05B42B0CE582001F945A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +388,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				446B8FFF2B0BCB140081AC78 /* ViewController.swift in Sources */,
+				44BE05C32B0CE7D4001F945A /* Extensions + UITextField.swift in Sources */,
+				44BE05B62B0CE6A8001F945A /* Extension + UIColor.swift in Sources */,
+				44BE05BB2B0CE6D5001F945A /* Extension + UIView.swift in Sources */,
+				44BE05BF2B0CE720001F945A /* Extensions + UIButton.swift in Sources */,
 				446B8FFB2B0BCB140081AC78 /* AppDelegate.swift in Sources */,
+				44BE05B82B0CE6BF001F945A /* Extension + UIFont.swift in Sources */,
 				446B8FFD2B0BCB140081AC78 /* SceneDelegate.swift in Sources */,
+				44BE05BD2B0CE703001F945A /* Extension + UIImage.swift in Sources */,
+				44BE05C12B0CE75C001F945A /* Extensions + UIStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +572,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7ULD8P3K3C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftShape/Info.plist;
+				INFOPLIST_FILE = SwiftShape/Info/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -463,7 +603,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7ULD8P3K3C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftShape/Info.plist;
+				INFOPLIST_FILE = SwiftShape/Info/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
